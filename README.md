@@ -3,19 +3,29 @@
 Database Sync App is a .NET 8 console app that syncs data between SQL Server and SQLite, supporting two-way sync for the Users table with conflict resolution and logging.
 
 ### **Setup instructions:**
-1. Created the Users table on both databases (SQL Server & SQLite).
+1. Created the `Users` table on both databases (SQL Server & SQLite).
 2. Added the `appsettings.json` to Configure the connection strings.
 3. Start the application using `dotnet run`.
-4. Using SSMS & SQLite Extensions for API testing and editing.
+4. Using SSMS & SQLite Extensions for testing and editing.
 
 
-### **Tables to Sync:**
+### **Users Table to Sync in SQL Server:**
 ```sql
 CREATE TABLE Users ( 
    Id INT PRIMARY KEY, 
    Name NVARCHAR(100), 
    Email NVARCHAR(100), 
    UpdatedAt DATETIME
+);
+  ```
+
+### **Users Table to Sync in SQLite:**
+```sql
+CREATE TABLE Users ( 
+   Id INTEGER PRIMARY KEY, 
+   Name TEXT, 
+   Email TEXT, 
+   UpdatedAt TEXT
 );
   ```
 
@@ -29,7 +39,6 @@ CREATE TABLE Users (
 
 
 ### **Example Output**
-
   ```text
 PS C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp> dotnet run -- --sync-sql-to-sqlite
 [11:11:36 INF] Starting Sync Application...
