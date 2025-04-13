@@ -33,103 +33,85 @@ CREATE TABLE Users (
 
   ```text
 PS C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp> dotnet run -- --sync-sql-to-sqlite
-[19:02:58 INF] Starting Sync Application...
+[11:11:36 INF] Starting Sync Application...
 The Users Table has been created successfully (If it didn't exist).
-info: DatabaseSyncApp.Services.SyncService[0]
-      Synchronizing from SQL Server to SQLite...
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 1 Into SQLite.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 2 Into SQLite.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 3 Into SQLite.
-info: DatabaseSyncApp.Services.SyncService[0]
-      SQL Server to SQLite Synchronization Completed
-  ```
-
-```text
-PS C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp> dotnet run -- --sync-sql-to-sqlite
-[02:01:09 INF] Starting Sync Application...
-The Users Table has been created successfully (If it didn't exist).
-info: DatabaseSyncApp.Services.SyncService[0]
-      Synchronizing from SQL Server to SQLite...
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 4 Into SQLite.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 5 Into SQLite.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 6 Into SQLite.
-Synchronize from SQL Server to SQLite
-info: DatabaseSyncApp.Services.SyncService[0]
-      SQL Server to SQLite Synchronization Completed
+[11:11:36 INF] Synchronizing from SQL Server to SQLite...
+[11:11:37 INF] Inserted User 27 Into SQLite.
+[11:11:37 INF] Inserted User 28 Into SQLite.
+[11:11:37 INF] Inserted User 29 Into SQLite.
+[11:11:37 INF] Inserted User 30 Into SQLite.
+[11:11:37 INF] Inserted User 31 Into SQLite.
+[11:11:37 INF] Inserted User 32 Into SQLite.
+[11:11:37 INF] Inserted User 33 Into SQLite.
+[11:11:37 INF] Inserted User 34 Into SQLite.
+[11:11:37 INF] Inserted User 35 Into SQLite.
+[11:11:37 INF] Inserted User 36 Into SQLite.
+[11:11:37 INF] Inserted User 37 Into SQLite.
+[11:11:37 INF] Inserted User 45 Into SQLite.
+[11:11:37 INF] Inserted User 46 Into SQLite.
+[11:11:37 INF] Inserted User 47 Into SQLite.
+[11:11:37 INF] Inserted User 48 Into SQLite.
+[11:11:37 INF] Inserted User 49 Into SQLite.
+[11:11:37 INF] Inserted User 50 Into SQLite.
+[11:11:37 INF] Inserted User 51 Into SQLite.
+[11:11:37 INF] Inserted User 52 Into SQLite.
+[11:11:37 INF] Inserted User 53 Into SQLite.
+[11:11:37 INF] Inserted User 54 Into SQLite.
+[11:11:37 INF] Inserted User 55 Into SQLite.
+[11:11:37 INF] Inserted User 56 Into SQLite.
+[11:11:37 INF] Inserted User 57 Into SQLite.
+[11:11:37 INF] Inserted User 58 Into SQLite.
+[11:11:37 INF] Inserted User 59 Into SQLite.
+[11:11:37 INF] SQL Server to SQLite Synchronization Completed
   ```
 
 ```text
 PS C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp> dotnet run -- --sync-sqlite-to-sql
-[02:05:08 INF] Starting Sync Application...
+[11:12:12 INF] Starting Sync Application...
 The Users Table has been created successfully (If it didn't exist).
-info: DatabaseSyncApp.Services.SyncService[0]
-      Synchronizing from SQLite to SQL Server...
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 12 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 13 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 14 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 15 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 16 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 17 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 18 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 19 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 20 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 21 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      SQLite to SQL Server Synchronization Completed
+[11:12:12 INF] Synchronizing from SQLite to SQL Server... 
+[11:12:12 INF] Inserted User 60 Into SQL Server.
+[11:12:12 INF] Inserted User 61 Into SQL Server.
+[11:12:12 INF] Inserted User 62 Into SQL Server.
+[11:12:12 INF] Inserted User 63 Into SQL Server.
+[11:12:12 INF] Inserted User 64 Into SQL Server.
+[11:12:12 INF] Inserted User 65 Into SQL Server.
+[11:12:12 INF] SQLite to SQL Server Synchronization Completed
   ```
 
 ```text
 PS C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp> dotnet run -- --sync-both
-[02:07:02 INF] Starting Sync Application...
+[11:13:43 INF] Starting Sync Application...
 The Users Table has been created successfully (If it didn't exist).
-info: DatabaseSyncApp.Services.SyncService[0]
-      Starting Full Two-Way Synchronization...
-info: DatabaseSyncApp.Services.SyncService[0]
-      Synchronizing from SQL Server to SQLite...
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 7 Into SQLite.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 8 Into SQLite.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 9 Into SQLite.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 10 Into SQLite.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 11 Into SQLite.
-info: DatabaseSyncApp.Services.SyncService[0]
-      SQL Server to SQLite Synchronization Completed
-info: DatabaseSyncApp.Services.SyncService[0]
-      Synchronizing from SQLite to SQL Server...
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 22 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 23 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 24 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 25 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      Inserted User 26 Into SQL Server.
-info: DatabaseSyncApp.Services.SyncService[0]
-      SQLite to SQL Server Synchronization Completed
-info: DatabaseSyncApp.Services.SyncService[0]
-      Full Two-Way Synchronization Completed
+[11:13:43 INF] Starting Full Two-Way Synchronization...
+[11:13:43 INF] Synchronizing from SQL Server to SQLite...
+[11:13:43 INF] Inserted User 66 Into SQLite.
+[11:13:43 INF] Inserted User 67 Into SQLite.
+[11:13:43 INF] Inserted User 68 Into SQLite.
+[11:13:43 INF] SQL Server to SQLite Synchronization Completed
+[11:13:43 INF] Synchronizing from SQLite to SQL Server...
+[11:13:43 INF] Inserted User 69 Into SQL Server.
+[11:13:43 INF] Inserted User 70 Into SQL Server.
+[11:13:43 INF] Inserted User 71 Into SQL Server.
+[11:13:43 INF] SQLite to SQL Server Synchronization Completed
+[11:13:43 INF] Full Two-Way Synchronization Completed
+  ```
+
+```text
+PS C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp> dotnet run -- --sync-deletion-only-both
+[11:15:01 INF] Starting Sync Application...
+The Users Table has been created successfully (If it didn't exist).
+[11:15:01 INF] Starting Deletions Synchronizing Only...
+[11:15:01 INF] Deleted Record 72 From SQLite (not found in SQL Server)
+[11:15:01 INF] Deleted Record 73 From SQLite (not found in SQL Server)
+[11:15:01 INF] Deleted Record 74 From SQLite (not found in SQL Server)
+[11:15:01 INF] Deleted Record 75 From SQLite (not found in SQL Server)
+[11:15:01 INF] Deleted Record 76 From SQLite (not found in SQL Server)
+[11:15:01 INF] Deleted Record 77 From SQL Server (not found in SQLite)
+[11:15:01 INF] Deleted Record 78 From SQL Server (not found in SQLite)
+[11:15:01 INF] Deleted Record 79 From SQL Server (not found in SQLite)
+[11:15:01 INF] Deleted Record 80 From SQL Server (not found in SQLite)
+[11:15:01 INF] Deletions Synchronization Only Completed
   ```
 
 ```text
@@ -160,5 +142,5 @@ info: DatabaseSyncApp.Services.SyncService[0]
 
 ### **Notes:**
 - On first run, The app will automatically create a `Users` table if it not exist.
-- Logs are displayed in the console and saved to `logs/`.
+- Logs are displayed in the console and saved to `logs/sync.log`.
 
