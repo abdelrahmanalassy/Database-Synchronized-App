@@ -9,7 +9,7 @@ Database Sync App is a .NET 8 console app that syncs data between SQL Server and
 4. Using SSMS & SQLite Extensions for testing and editing.
 
 
-### **Users Table to Sync in SQL Server:**
+### **SQL Sever Table Schema for Users:**
 ```sql
 CREATE TABLE Users ( 
    Id INT PRIMARY KEY, 
@@ -19,7 +19,7 @@ CREATE TABLE Users (
 );
   ```
 
-### **Users Table to Sync in SQLite:**
+### **SQLite Table Schema for Users:**
 ```sql
 CREATE TABLE Users ( 
    Id INTEGER PRIMARY KEY, 
