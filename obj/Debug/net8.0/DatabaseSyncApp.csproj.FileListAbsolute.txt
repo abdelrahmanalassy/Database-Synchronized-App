@@ -125,3 +125,5 @@ C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp\obj\Deb
 C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp\obj\Debug\net8.0\DatabaseSyncApp.pdb
 C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp\obj\Debug\net8.0\DatabaseSyncApp.genruntimeconfig.cache
 C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp\obj\Debug\net8.0\ref\DatabaseSyncApp.dll
+C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\DELL\OneDrive\Desktop\Database Synchronized App\DatabaseSyncApp\obj\Debug\net8.0\DatabaseSyncApp.sourcelink.json

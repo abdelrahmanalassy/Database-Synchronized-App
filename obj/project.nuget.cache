@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IpY5n4CfmXg=",
+  "dgSpecHash": "0XitwFr3QaY=",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\OneDrive\\Desktop\\Database Synchronized App\\DatabaseSyncApp\\DatabaseSyncApp.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\serilog.extensions.logging\\9.0.1\\serilog.extensions.logging.9.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\serilog.sinks.console\\6.0.0\\serilog.sinks.console.6.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\serilog.sinks.file\\6.0.0\\serilog.sinks.file.6.0.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.10\\sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",

@@ -24,6 +24,7 @@ namespace DatabaseSyncApp.Services
             _deletionService = new SyncDeletionService(databaseHelper, loggerFactory.CreateLogger<SyncDeletionService>());
         }
 
+        // To Sync from SQL Server to SQLite
         public async Task SyncSqlServerToSqliteAsync()
         {
             _logger.LogInformation("Synchronizing from SQL Server to SQLite...");
@@ -49,6 +50,7 @@ namespace DatabaseSyncApp.Services
             _logger.LogInformation("SQL Server to SQLite Synchronization Completed");
         }
 
+        // To Sync from SQLite to SQL Server
         public async Task SyncSqliteToSqlServerAsync()
         {
             _logger.LogInformation("Synchronizing from SQLite to SQL Server... ");
@@ -74,6 +76,7 @@ namespace DatabaseSyncApp.Services
             _logger.LogInformation("SQLite to SQL Server Synchronization Completed");
         }
 
+        // To Sync both tabels 'Insert, Update, Delete Records'
         public async Task SyncBothAsync()
         {
             _logger.LogInformation("Starting Full Two-Way Synchronization...");
@@ -87,6 +90,7 @@ namespace DatabaseSyncApp.Services
             _logger.LogInformation("Full Two-Way Synchronization Completed");
         }
 
+        // To Sync both tabels 'Only deletion'
         public async Task SyncDeleteOnlyAsync()
         {
             _logger.LogInformation("Starting Deletions Synchronizing Only...");

@@ -11,3 +11,75 @@
 2025-04-13 02:07:49.738 +02:00 [INF] Starting Sync Application...
 2025-04-13 02:09:24.347 +02:00 [INF] Starting Sync Application...
 2025-04-13 02:11:43.456 +02:00 [INF] Starting Sync Application...
+2025-04-13 09:43:56.380 +02:00 [INF] Starting Sync Application...
+2025-04-13 09:43:56.530 +02:00 [ERR] No Data Provided. Please use one of the following options:
+2025-04-13 09:43:56.533 +02:00 [ERR] --sync-sql-to-sqlite
+2025-04-13 09:43:56.536 +02:00 [ERR] --sync-sqlite-to-sql
+2025-04-13 09:43:56.539 +02:00 [ERR] --sync-both
+2025-04-13 09:43:56.543 +02:00 [ERR] --sync-deletion-only-both
+2025-04-13 09:44:16.527 +02:00 [INF] Starting Sync Application...
+2025-04-13 09:44:16.679 +02:00 [INF] Synchronizing from SQL Server to SQLite...
+2025-04-13 09:44:16.951 +02:00 [INF] SQL Server to SQLite Synchronization Completed
+2025-04-13 11:11:36.788 +02:00 [INF] Starting Sync Application...
+2025-04-13 11:11:36.897 +02:00 [INF] Synchronizing from SQL Server to SQLite...
+2025-04-13 11:11:37.107 +02:00 [INF] Inserted User 27 Into SQLite.
+2025-04-13 11:11:37.113 +02:00 [INF] Inserted User 28 Into SQLite.
+2025-04-13 11:11:37.118 +02:00 [INF] Inserted User 29 Into SQLite.
+2025-04-13 11:11:37.122 +02:00 [INF] Inserted User 30 Into SQLite.
+2025-04-13 11:11:37.126 +02:00 [INF] Inserted User 31 Into SQLite.
+2025-04-13 11:11:37.130 +02:00 [INF] Inserted User 32 Into SQLite.
+2025-04-13 11:11:37.135 +02:00 [INF] Inserted User 33 Into SQLite.
+2025-04-13 11:11:37.305 +02:00 [INF] Inserted User 34 Into SQLite.
+2025-04-13 11:11:37.312 +02:00 [INF] Inserted User 35 Into SQLite.
+2025-04-13 11:11:37.318 +02:00 [INF] Inserted User 36 Into SQLite.
+2025-04-13 11:11:37.323 +02:00 [INF] Inserted User 37 Into SQLite.
+2025-04-13 11:11:37.326 +02:00 [INF] Inserted User 45 Into SQLite.
+2025-04-13 11:11:37.329 +02:00 [INF] Inserted User 46 Into SQLite.
+2025-04-13 11:11:37.333 +02:00 [INF] Inserted User 47 Into SQLite.
+2025-04-13 11:11:37.337 +02:00 [INF] Inserted User 48 Into SQLite.
+2025-04-13 11:11:37.340 +02:00 [INF] Inserted User 49 Into SQLite.
+2025-04-13 11:11:37.343 +02:00 [INF] Inserted User 50 Into SQLite.
+2025-04-13 11:11:37.346 +02:00 [INF] Inserted User 51 Into SQLite.
+2025-04-13 11:11:37.351 +02:00 [INF] Inserted User 52 Into SQLite.
+2025-04-13 11:11:37.355 +02:00 [INF] Inserted User 53 Into SQLite.
+2025-04-13 11:11:37.358 +02:00 [INF] Inserted User 54 Into SQLite.
+2025-04-13 11:11:37.361 +02:00 [INF] Inserted User 55 Into SQLite.
+2025-04-13 11:11:37.365 +02:00 [INF] Inserted User 56 Into SQLite.
+2025-04-13 11:11:37.369 +02:00 [INF] Inserted User 57 Into SQLite.
+2025-04-13 11:11:37.372 +02:00 [INF] Inserted User 58 Into SQLite.
+2025-04-13 11:11:37.375 +02:00 [INF] Inserted User 59 Into SQLite.
+2025-04-13 11:11:37.376 +02:00 [INF] SQL Server to SQLite Synchronization Completed
+2025-04-13 11:12:12.580 +02:00 [INF] Starting Sync Application...
+2025-04-13 11:12:12.694 +02:00 [INF] Synchronizing from SQLite to SQL Server... 
+2025-04-13 11:12:12.903 +02:00 [INF] Inserted User 60 Into SQL Server.
+2025-04-13 11:12:12.905 +02:00 [INF] Inserted User 61 Into SQL Server.
+2025-04-13 11:12:12.905 +02:00 [INF] Inserted User 62 Into SQL Server.
+2025-04-13 11:12:12.906 +02:00 [INF] Inserted User 63 Into SQL Server.
+2025-04-13 11:12:12.907 +02:00 [INF] Inserted User 64 Into SQL Server.
+2025-04-13 11:12:12.908 +02:00 [INF] Inserted User 65 Into SQL Server.
+2025-04-13 11:12:12.908 +02:00 [INF] SQLite to SQL Server Synchronization Completed
+2025-04-13 11:13:43.116 +02:00 [INF] Starting Sync Application...
+2025-04-13 11:13:43.231 +02:00 [INF] Starting Full Two-Way Synchronization...
+2025-04-13 11:13:43.234 +02:00 [INF] Synchronizing from SQL Server to SQLite...
+2025-04-13 11:13:43.444 +02:00 [INF] Inserted User 66 Into SQLite.
+2025-04-13 11:13:43.448 +02:00 [INF] Inserted User 67 Into SQLite.
+2025-04-13 11:13:43.452 +02:00 [INF] Inserted User 68 Into SQLite.
+2025-04-13 11:13:43.452 +02:00 [INF] SQL Server to SQLite Synchronization Completed
+2025-04-13 11:13:43.454 +02:00 [INF] Synchronizing from SQLite to SQL Server... 
+2025-04-13 11:13:43.480 +02:00 [INF] Inserted User 69 Into SQL Server.
+2025-04-13 11:13:43.483 +02:00 [INF] Inserted User 70 Into SQL Server.
+2025-04-13 11:13:43.484 +02:00 [INF] Inserted User 71 Into SQL Server.
+2025-04-13 11:13:43.484 +02:00 [INF] SQLite to SQL Server Synchronization Completed
+2025-04-13 11:13:43.493 +02:00 [INF] Full Two-Way Synchronization Completed
+2025-04-13 11:15:01.458 +02:00 [INF] Starting Sync Application...
+2025-04-13 11:15:01.574 +02:00 [INF] Starting Deletions Synchronizing Only...
+2025-04-13 11:15:01.736 +02:00 [INF] Deleted Record 72 From SQLite (not found in SQL Server)
+2025-04-13 11:15:01.740 +02:00 [INF] Deleted Record 73 From SQLite (not found in SQL Server)
+2025-04-13 11:15:01.744 +02:00 [INF] Deleted Record 74 From SQLite (not found in SQL Server)
+2025-04-13 11:15:01.747 +02:00 [INF] Deleted Record 75 From SQLite (not found in SQL Server)
+2025-04-13 11:15:01.750 +02:00 [INF] Deleted Record 76 From SQLite (not found in SQL Server)
+2025-04-13 11:15:01.769 +02:00 [INF] Deleted Record 77 From SQL Server (not found in SQLite)
+2025-04-13 11:15:01.771 +02:00 [INF] Deleted Record 78 From SQL Server (not found in SQLite)
+2025-04-13 11:15:01.773 +02:00 [INF] Deleted Record 79 From SQL Server (not found in SQLite)
+2025-04-13 11:15:01.774 +02:00 [INF] Deleted Record 80 From SQL Server (not found in SQLite)
+2025-04-13 11:15:01.775 +02:00 [INF] Deletions Synchronization Only Completed

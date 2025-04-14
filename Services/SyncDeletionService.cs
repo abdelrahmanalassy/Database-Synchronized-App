@@ -12,6 +12,7 @@ using DatabaseSyncApp.Helpers;
 
 namespace DatabaseSyncApp.Services
 {
+    // To set the the Synchronization connection
     public class SyncDeletionService
     {
         private readonly DatabaseHelper _databaseHelper;

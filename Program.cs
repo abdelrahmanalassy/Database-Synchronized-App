@@ -5,6 +5,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Serilog;
+using Serilog.Extensions.Logging;
 using DatabaseSyncApp.Helpers;
 using DatabaseSyncApp.Services;
 
@@ -23,7 +24,8 @@ namespace DatabaseSyncApp
 
             var loggerFactory = LoggerFactory.Create(builder =>
             {
-                builder.AddConsole();
+                builder
+                    .AddSerilog();
             });
 
             try
@@ -48,7 +50,7 @@ namespace DatabaseSyncApp
                 var databaseHelper = new DatabaseHelper(sqlConnectionString, sqliteConnectionString);
 
                 var syncService = new SyncService(databaseHelper, loggerFactory.CreateLogger<SyncService>(), loggerFactory);
-
+                
                 if (args.Length == 0)
                 {
                     Log.Error("No Data Provided. Please use one of the following options:");
