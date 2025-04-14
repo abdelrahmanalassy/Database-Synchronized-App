@@ -149,6 +149,6 @@ info: DatabaseSyncApp.Services.SyncService[0]
   ```
 
 ### **Notes:**
-- On first run, The app will automatically create a `Users` table if it not exist.
-- Logs are displayed in the console and saved to `logs/sync.log`.
+- On first run, The app will automatically create a `Users` table if it not exist
+- Logs are displayed in the console and saved to `logs/sync.log`
 
